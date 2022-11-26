@@ -1,0 +1,37 @@
+#maintitle {
+    text-align:center;
+    color: rgb(255, 60, 0);
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#recipetitle {
+    color: rgb(255, 60, 0);
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.parent {
+    text-align: center;
+  }
+  .parent > ul {
+    display: inline-block;
+  }
+
+body {
+    background-color: lightcyan;
+}
+
+img {
+    height: auto;
+    width: 500px;
+}
+
+#steps {
+    position: absolute;
+    right: 50%;
+    width: fit-content;
+    padding: 0 0 0 10px;
+}
